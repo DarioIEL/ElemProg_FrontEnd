@@ -7,6 +7,8 @@ function saluta(){
     console.log("Ciao " + nome);
 }
 
+
+
 //Richiamo la funzione
 saluta();
 
@@ -39,7 +41,6 @@ function calcolaMultipliDi2(){
 }
 
 /**
- * 
  * @param {Number[]} arrayDiNumeri 
  */
 function analizza(arrayDiNumeri){

@@ -78,7 +78,9 @@ function primaFunz(){
         let mioCognome = "Mennillo";
         return mioNome + " " + mioCognome;
     }
+
     return secondaFunz();
 }
+
 
 console.log(primaFunz());
