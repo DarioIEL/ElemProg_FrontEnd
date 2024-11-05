@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Inserisci Impiegato</h1>
+
+    <input type="text" id="nome" placeholder="Nome"><br>
+    <input type="text" id="cognome" placeholder="Cognome"><br>
+    <select name="ruolo" id="ruolo">
+        <option value="" selected disabled>Seleziona Ruolo</option>
+        <option value="manager">Manager</option>
+        <option value="operaio">Operaio</option>
+        <option value="fattorino">Fattorino</option>
+    </select><br>
+    <button id="btnAdd">Aggiungi</button>
+
+    <div id="feed"></div>
+
+    <br>
+
+    <h2>Lista degli Impiegati</h2>
+
+    <button id="btnStmpLista">Stampa Lista</button>
+    <div id="listaImp">
+
+    </div>
+
+    <script src="./js/script01.js"></script>
+    
+</body>
+</html>
