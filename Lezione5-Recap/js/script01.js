@@ -96,3 +96,7 @@ function aggiungiImp(){
 }
 
 btnAdd.addEventListener("click", aggiungiImp);
+
+let parola = "ciao";
+
+console.log(parola[0].toLocaleUpperCase()+parola.substring(1));

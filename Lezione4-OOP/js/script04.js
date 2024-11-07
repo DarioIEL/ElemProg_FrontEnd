@@ -1,7 +1,6 @@
 
 class Studente {
     /**
-     * 
      * @param {String} nome 
      * @param {String} cognome 
      * @param {Number} matricola 

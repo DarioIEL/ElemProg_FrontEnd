@@ -1,3 +1,1 @@
-# ElemProg_FrontEnd
-
-## Repo del corso
+# Corso_LezioniJS

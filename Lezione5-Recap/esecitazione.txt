@@ -1,0 +1,9 @@
+Costruire la seguente applicazione.
+Inserimento studenti nel registro di classe.
+Ogni studente avrà le seguenti prop (nome, cognome, matricola, email, corso).
+
+Utilizza un form per inserire gli studenti e controlla il form affinché tutti i campi siano esatti e completi.
+
+Accanto ad ogni studente inserisci un pulsante "Modifica", al click le info dello studente vengono riportate nel form e posso modificare tutti i campi.
+
+Partire con 3 studenti nell'array
