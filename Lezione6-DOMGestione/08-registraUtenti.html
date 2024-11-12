@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box{
+           width: 200px;
+           height: auto;
+           margin: 20px;
+           border: 1px solid black; 
+           float: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Registra Utenti</h1>
+
+    <div class="box">
+        <h3>Compila i campi</h3>
+        <input type="text" id="nome" placeholder="inserisci il nome"><br>
+        <input type="text" id="cognome" placeholder="inserisci il cognome"><br>
+        <input type="text" id="corso" placeholder="inserisci il corso"><br>
+        <select name="" id="ruolo">
+            <option value="" selected disabled>Seleziona un ruolo</option>
+            <option value="studente">Studente</option>
+            <option value="docente">Docente</option>
+            <option value="responsabile">Responsabile</option>
+        </select>
+
+        <button id="btnRec">Registra Utente</button>
+    </div>
+
+    <div class="box">
+        <button id="btnStmpLista">Stampa lista Utenti</button>
+        <li>Marta Verdi - Docente - Tss - 17:00:24 
+            <button> x </button>
+        </li>
+    </div>
+    <div class="box">
+        <h3>Orologio Digitale</h3>
+    </div>
+
+    <script src="./js/script08.js"></script>
+</body>
+</html>

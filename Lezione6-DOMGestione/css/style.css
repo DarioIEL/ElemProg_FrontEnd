@@ -1,0 +1,36 @@
+img{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid black;
+    min-height: 200px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.txtCenter{
+    text-align: center;
+}
+
+.imgWE{
+    width: 200px;
+    height: auto;
+}
+
+.txtRed{
+    color: red;
+}
+
+.txtBlue{
+    color: blue;
+}
+
+.txtBarrato{
+    text-decoration: line-through;
+}
