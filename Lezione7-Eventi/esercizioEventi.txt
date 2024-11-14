@@ -1,0 +1,17 @@
+Sfruttando gli eventi crea un form per registrare un utente (class Utente) utilizzando i seguenti campi:
+
+- nome
+- cognome
+- email
+- num telfono
+- ruolo (select -> option)
+
+Quando clicco sul pulsante submit dovrò "registrare" l'utente.
+Controlla tutti i campi nel seguente modo:
+nome e cognome > 1 carattere
+email deve contenere @ e almeno . (No regular expression)
+num telef > 8 caratteri numerici
+ruolo deve essere selezionato
+
+Il controllo va eseguito al blur su ogni campo. sotto ogni campo ci sarà un div di feedback.
+Se tutto è ben compilato mostra l'utente in console.
