@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Registra Utente</h1>
+
+    <form action="./grazie.html" method="get" id="formRegUser">
+        <input type="text" name="nome" id="nome" placeholder="nome" > <br>
+        <div id="feedNome"></div>
+
+        <input type="text" name="cognome" id="cognome" placeholder="cognome"  > <br>
+        <div id="feedCognome"></div>
+
+        <input type="email" name="email" id="email" placeholder="email"   > <br>
+        <div id="feedEmail"></div>
+
+        <input type="tel" name="telefono" id="telefono" placeholder="telefono"  > <br>
+        <div id="feedTel"></div>
+
+        <input type="password" name="password" id="password" placeholder="Inserisci una password"> <br>
+        <div id="feedPass"></div>
+
+        <select name="" id="ruolo"  >
+            <option value="" selected disabled>Seleziona Ruolo</option>
+            <option value="docente">docente</option>
+            <option value="studente">studente</option>
+            <option value="responsabile">responsabile</option>
+        </select>
+        <div id="feedRuolo"></div>
+
+
+        <button type="submit">Invia</button>
+    </form>
+
+    <div id="demo"></div>
+
+
+    <script src="./js/script04.js"></script>
+</body>
+</html>
