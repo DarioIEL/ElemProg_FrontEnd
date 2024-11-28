@@ -5,3 +5,11 @@
     float: left;
     margin: 30px;
 }
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
